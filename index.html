@@ -3,6 +3,27 @@
 <head>
 <title>Mariela's Web Page</title>
     
+ // Define color variables:
+red = [0, 100, 63];
+orange = [40, 100, 60];
+green = [75, 100, 40];
+blue = [196, 77, 55];
+purple = [280, 50, 60];
+letterColors = [red, orange, green, blue, purple];
+
+// This variable controls the smallest distance at which a mouse will make the dots react
+mouseResponseThreshold = 100;
+
+// This variable controls how strongly the dots will try to return to their starting position
+friction = 0.90;
+
+// This variable controls how much the dots will rotate when interacting
+rotationForce = 0.0;
+
+message = 'Change the physics!';
+
+drawName(message, letterColors);
+bounceBubbles();
  
 <iframe style="width: 11px; height: 100%; overflow: hidden; border:1px solid #000;" src="http://" width="11" height="11" scrolling="no">Iframes not supported</iframe>
     
@@ -10,8 +31,6 @@
     
 <body style="background-color:LightSkyBlue;">
     
- drawname('Mariela');
-    bouncebubbles()
     
 <h1 style="color:White;">Mariela's Website :)</h1>
     
